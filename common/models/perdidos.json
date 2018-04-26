@@ -1,0 +1,34 @@
+{
+  "name": "perdidos",
+  "plural": "perdidos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "tamanio": {
+      "type": "string"
+    },
+    "Raza": {
+      "type": "string",
+      "required": true
+    },
+    "zona": {
+      "type": "geopoint"
+    },
+    "caracteristicas": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

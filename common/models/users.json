@@ -1,0 +1,30 @@
+{
+  "name": "users",
+  "plural": "users",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "encontrados": {
+      "type": "hasMany",
+      "model": "encontrados",
+      "foreignKey": ""
+    },
+    "perdidos": {
+      "type": "hasMany",
+      "model": "perdidos",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

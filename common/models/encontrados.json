@@ -1,0 +1,33 @@
+{
+  "name": "encontrados",
+  "plural": "encontrados",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "tamanio": {
+      "type": "string"
+    },
+    "raza": {
+      "type": "string"
+    },
+    "zona": {
+      "type": "geopoint"
+    },
+    "caracteristicas": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
