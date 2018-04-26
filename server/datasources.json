@@ -4,7 +4,7 @@
     "port": 59119,
     "url": "",
     "database": "ayepocs",
-    "password": "ramones1",
+    "password": "xxxxxxxxxx",
     "name": "db",
     "user": "loopbackserver",
     "connector": "mongodb",
